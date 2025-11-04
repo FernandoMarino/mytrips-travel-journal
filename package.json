@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-8",
+  "name": "mytrips-travel-logbook",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-8",
+  "description": "ytrips-travel-logbook",
   "author": "FernandoMarino",
   "keywords": [
     "gatsby"
@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build && gatsby serve",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
