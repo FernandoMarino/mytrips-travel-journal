@@ -17,12 +17,12 @@ export const query = graphql`
         endDate
         coverImage {
           childImageSharp {
-            gatsbyImageData(width: 800, placeholder: BLURRED)
+            gatsbyImageData(width: 800, placeholder: BLURRED, formats: [AVIF, WEBP])
           }
         }
         galleryImages {
           childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, )
+            gatsbyImageData(placeholder: BLURRED, formats: [AVIF, WEBP] )
           }
         }
         rating

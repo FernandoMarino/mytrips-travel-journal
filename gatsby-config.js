@@ -3,7 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'myTrips - Your Travel Logbook',
+    siteUrl: `https://mytrips-logbook.netlify.app/`,
+    author: 'Fernando Marino dos Santos',
+    description: 'aplicação web desenvolvida para o projeto da disciplina Front-end Jamstack com Gatsby [25E4_2]'
   },
   plugins: [
     {
