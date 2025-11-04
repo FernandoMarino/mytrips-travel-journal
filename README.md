@@ -2,7 +2,9 @@
 
 O projeto foi desenvolvido por Fernando Marino dos Santos. Durante o projeto foram aplicados diversas técnicas que foram ensinadas em sala de aula.
 
-URL do Website: "mytrips-logbook.netlify.app"
+
+URL do Website: "https://mytrips-logbook.netlify.app"
+URL para o GitHub do projeto: "https://github.com/FernandoMarino/mytrips-travel-journal"
 
 ### Técnicas Utilizadas
 
