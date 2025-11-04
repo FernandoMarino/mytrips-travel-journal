@@ -20,11 +20,6 @@ export const query = graphql`
             gatsbyImageData(width: 800, placeholder: BLURRED, formats: [AVIF, WEBP])
           }
         }
-        galleryImages {
-          childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, formats: [AVIF, WEBP] )
-          }
-        }
         rating
       }
       excerpt
