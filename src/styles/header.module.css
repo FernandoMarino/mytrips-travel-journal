@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.header {
+    background-color: rgb(255, 84, 84);
+    color: white;
+    padding: 0;
+    height: 12vh;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 128px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 64px;
+  }
+}
+
+.app-name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.tagLine {
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: 0.85
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    top: 1rem;
+    padding-right: 1rem;
+}
+
+.nav a {
+    margin: 0.7rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #000;
+}
